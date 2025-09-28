@@ -1,0 +1,9 @@
+distractify-react/
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── index.html
+├── src/
+│   ├── index.tsx
+│   ├── App.tsx
+│   └── App.css
