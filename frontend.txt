@@ -1,0 +1,12 @@
+
+---
+
+## ✅ Sad imaš sve
+
+- Frontend radi
+- Backend radi
+- AI radi
+- CSV radi
+- Slike se analiziraju
+
+Hoćeš da ti napišem `.gitignore`, `.env`, ili da ti složim ZIP strukturu kao tekstualni vodič? Samo reci. Sad si gazda svog projekta.
