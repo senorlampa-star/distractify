@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Distractify Directory</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Distractify Directory</h1>
+    <nav>
+      <a href="#dir1">Directory 1</a>
+      <a href="#dir2">Directory 2</a>
+      <a href="#dir3">Directory 3</a>
+      <a href="#dir4">Directory 4</a>
+      <button onclick="toggleDarkMode()">🌓</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="dir1">
+      <h2>Directory 1</h2>
+      <p>Odeke se nachází v directory.html. Můžeš udělat twist, kliknout, dát—ne to je jeho účel je dátěně.</p>
+      <blockquote id="quote1"></blockquote>
+    </section>
+
+    <section id="dir2">
+      <h2>Directory 2</h2>
+      <p>Odeke se nachází v directory.html. Ale je to jako popis, takže na mně volá—jsme po kapitolí uvnitř.</p>
+      <blockquote id="quote2"></blockquote>
+    </section>
+
+    <section id="dir3">
+      <h2>Directory 3</h2>
+      <p>Odeke se nachází v directory.html. Můžeš oddělit i násilný jako dá se na multiple.</p>
+      <blockquote id="quote3"></blockquote>
+    </section>
+
+    <section id="dir4">
+      <h2>Directory 4</h2>
+      <p>Odeke se nachází v directory.html. Ale máš něco na referencování vnějšímu typu. Jme—ty jme v klikají..</p>
+      <blockquote id="quote4"></blockquote>
+    </section>
+  </main>
+
+  <script src="quotes.js"></script>
+  <script>
+    document.getElementById("quote1").innerText = getRandomQuote();
+    document.getElementById("quote2").innerText = getRandomQuote();
+    document.getElementById("quote3").innerText = getRandomQuote();
+    document.getElementById("quote4").innerText = getRandomQuote();
+
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+</body>
+</html>
